@@ -63,7 +63,7 @@ export interface Cast {
 
 export interface Credits {
   cast: Cast[];
-  crew: any[];
+  crew: never[];
 }
 
 export interface MovieResponse {
