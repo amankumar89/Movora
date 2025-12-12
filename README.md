@@ -4,6 +4,21 @@ An elegant, fast, and responsive movie discovery web app built with React, Vite,
 
 ---
 
+## 🎯 Live Demo (Try it now)
+
+Experience Movora instantly in your browser (deployed on Vercel):
+
+- Primary: https://movora-tau.vercel.app/
+- Preview/Other branches:
+   - https://movora-git-main-amankumar89s-projects.vercel.app/
+   - https://movora-4i4dwu8o0-amankumar89s-projects.vercel.app/
+
+Open one of the URLs above to jump straight into the app and try searching, browsing categories, and viewing movie details.
+
+---
+
+---
+
 ## 🚀 Features
 
 - Search movies with debounce and instant results
