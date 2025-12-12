@@ -78,6 +78,55 @@ Open http://localhost:5173 (or the displayed address) to view the app.
 
 ---
 
+## 🔗 Live Demo
+
+You can see the app deployed on Vercel at the following URLs:
+
+- https://movora-tau.vercel.app/
+- https://movora-git-main-amankumar89s-projects.vercel.app/
+- https://movora-4i4dwu8o0-amankumar89s-projects.vercel.app/
+
+> Note: These are valid Vercel deployments — they may represent preview builds or different branches/projects.
+
+---
+
+## 🖼️ Screenshots
+
+Below is a sample screenshot of Movora. Replace `public/screenshot.svg` with a real screenshot (PNG/JPG) if you want a higher fidelity image.
+
+![Movora screenshot](public/screenshot.svg)
+
+To replace this screenshot:
+
+1. Open your deployed site or run it locally in your browser.
+2. Take a screenshot (use OS or browser dev tools).
+3. Save it as `screenshot.png` (or .jpg) and add it to the `public/` folder.
+4. Commit and push; the README will render your new file instead of the SVG placeholder.
+
+---
+
+## 📤 Deploying to Vercel
+
+You can deploy this project to Vercel (or any static site host) easily:
+
+1. If you haven't already, sign in to https://vercel.com and connect your GitHub repository.
+2. Create a new project, select the `Movora` repository, and configure build settings:
+   - **Framework Preset**: Vite
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+3. Add `VITE_TMDB_API_KEY` as an Environment Variable (Project Settings → Environment Variables). Use `Production` and `Preview` as needed.
+4. Deploy — Vercel automatically builds and deploys your app. Every push to enabled branches will trigger a new deployment.
+
+### Tip
+If you see multiple deployments, Vercel may be producing a preview for a PR or branch — you can set which branch is the default production branch in the Vercel Project settings.
+
+---
+
+
+---
+
+---
+
 ## 📁 Project Structure
 
 - `index.html` — HTML entry file
