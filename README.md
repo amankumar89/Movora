@@ -6,12 +6,9 @@ An elegant, fast, and responsive movie discovery web app built with React, Vite,
 
 ## 🎯 Live Demo (Try it now)
 
-Experience Movora instantly in your browser (deployed on Vercel):
+Experience Movora instantly in your browser (deployed on Netlify):
 
-- Primary: https://movora-tau.vercel.app/
-- Preview/Other branches:
-   - https://movora-git-main-amankumar89s-projects.vercel.app/
-   - https://movora-4i4dwu8o0-amankumar89s-projects.vercel.app/
+- [Live Demo](https://movora-movie-app.netlify.app)
 
 Open one of the URLs above to jump straight into the app and try searching, browsing categories, and viewing movie details.
 
