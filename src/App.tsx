@@ -59,9 +59,9 @@ function App() {
       {/* Header */}
       <div className="bg-base-100 shadow-sm sticky top-0 z-40">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-wrap gap-4">
             {/* Logo and Title */}
-            <div className="flex items-center justify-center gap-3">
+            <div className="flex items-center justify-start gap-3">
               <div className="flex items-center gap-2">
                 <Film className="w-8 h-8 text-primary" />
                 <h1 className="text-2xl md:text-3xl font-bold">Movora</h1>
@@ -89,13 +89,13 @@ function App() {
 
       {/* Main Content */}
       <main className="container mx-auto px-4 py-8">
-        <div className="mb-8">
+        <div className="flex items-center mb-6">
           <h2 className="text-xl md:text-2xl font-semibold text-center">
             {getCategoryTitle()}
           </h2>
           {movies.length > 0 && !loading && (
-            <p className="text-center text-base-content/70 mt-2">
-              {movies.length} movies found
+            <p className="hidden md:block text-center text-base-content/70 mt-2">
+              {`, ${movies.length} movies found`}
             </p>
           )}
         </div>
