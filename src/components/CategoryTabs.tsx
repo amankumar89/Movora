@@ -24,16 +24,15 @@ const CategoryTabs: React.FC<CategoryTabsProps> = ({
   ];
 
   return (
-    <div className="flex flex-col gap-4">
+    <div className="w-full flex gap-4 justify-between flex-wrap">
       <div className="tabs tabs-boxed justify-center">
         {categories.map((category) => {
           const Icon = category.icon;
           return (
             <button
               key={category.id}
-              className={`tab gap-2 ${
-                activeCategory === category.id ? "tab-active" : ""
-              }`}
+              className={`pl-0 tab gap-2 ${activeCategory === category.id ? "tab-active" : ""
+                }`}
               onClick={() => onCategoryChange(category.id)}
             >
               <Icon className="w-4 h-4" />
@@ -47,17 +46,15 @@ const CategoryTabs: React.FC<CategoryTabsProps> = ({
         <div className="flex justify-end gap-x-1">
           {/* <div className="btn-group"></div> */}
           <button
-            className={`btn btn-sm ${
-              trendingTimeWindow === "day" ? "btn-active" : "btn-outline"
-            }`}
+            className={`btn btn-sm ${trendingTimeWindow === "day" ? "btn-active" : "btn-outline"
+              }`}
             onClick={() => onTrendingTimeWindowChange("day")}
           >
             Today
           </button>
           <button
-            className={`btn btn-sm ${
-              trendingTimeWindow === "week" ? "btn-active" : "btn-outline"
-            }`}
+            className={`btn btn-sm ${trendingTimeWindow === "week" ? "btn-active" : "btn-outline"
+              }`}
             onClick={() => onTrendingTimeWindowChange("week")}
           >
             This Week

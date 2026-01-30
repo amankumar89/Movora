@@ -40,9 +40,8 @@ function App() {
 
     switch (activeCategory) {
       case "trending":
-        return `Trending ${
-          trendingTimeWindow === "day" ? "Today" : "This Week"
-        }`;
+        return `Trending ${trendingTimeWindow === "day" ? "Today" : "This Week"
+          }`;
       case "popular":
         return "Popular Movies";
       case "top_rated":
@@ -59,7 +58,7 @@ function App() {
       {/* Header */}
       <div className="bg-base-100 shadow-sm sticky top-0 z-40">
         <div className="container mx-auto px-4 py-4">
-          <div className="flex flex-wrap gap-4">
+          <div className="w-full flex flex-wrap gap-4 justify-between">
             {/* Logo and Title */}
             <div className="flex items-center justify-start gap-3">
               <div className="flex items-center gap-2">
